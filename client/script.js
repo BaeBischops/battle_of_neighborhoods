@@ -32,3 +32,11 @@ const typeTxt = () => {
   }, 20)
 }
 
+//unique id for every message
+const generateUniqueId = () => {
+  const timeStamp = Date.now();
+  const randomNumber = Math.random();
+  const hexidecimalString = randomNumber.toString(16);
+
+  return `id-${timeStamp}-${hexidecimalString}`;
+}
