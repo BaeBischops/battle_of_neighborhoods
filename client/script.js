@@ -19,3 +19,16 @@ const loader = () => {
   }, 300)
 }
 
+//the typing text fxn 
+const typeTxt = () => {
+  let index = 0;
+  
+  let interval = setInterval(() => {
+    if (index < text.length)
+    {
+      element.innerHTML += text.charAt(index);
+      index ++;
+    }
+  }, 20)
+}
+
