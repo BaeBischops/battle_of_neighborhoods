@@ -1,1 +1,1 @@
-<h1 style="text-transform: uppercase;">chatbot</h1>
+<h1>chatbot</h1>
