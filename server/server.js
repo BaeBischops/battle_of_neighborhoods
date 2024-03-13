@@ -11,3 +11,9 @@ const configuration = new configuration({
 
 //instance of openai
 const openai = new OpenAIApi(configuration);
+
+//initializing the express application
+const app = express();
+app.use(cors());
+app.use(express.json());
+
