@@ -1,14 +1,12 @@
 {
   "name": "server",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "scripts": {
     "server": "nodemon server"
   },
-  "keywords": [],
-  "author": "BaeBschops <dr.bkzee@gmail.com>",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
